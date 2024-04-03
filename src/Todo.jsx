@@ -6,8 +6,8 @@
  * <Todo todo={todo} />
  */
 
-export function Todo(props) {
+export default function Todo(props) {
   const { todo } = props;
 
-  return <div>To je Todo.jsx</div>;
+  return <div>{todo}</div>;
 }
